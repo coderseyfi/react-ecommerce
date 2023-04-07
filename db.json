@@ -1,0 +1,110 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple Watch",
+      "model": "Series 5 SE",
+      "price": "529.99",
+      "image": "/src/assets/images/appleWatch.svg",
+      "icon": "/src/assets/icons/Button.svg"
+    },
+    {
+      "id": 2,
+      "name": "Sony ZX330BT",
+      "model": "Light Grey",
+      "price": "39.99",
+      "image": "/src/assets/images/headPhone.svg",
+      "icon": "/src/assets/icons/Button.svg"
+    },
+    {
+      "id": 3,
+      "name": "Iphone 11",
+      "model": "Serious Black",
+      "price": "619.99",
+      "image": "/src/assets/images/iphoneBlack.svg",
+      "icon": "/src/assets/icons/Button.svg"
+    },
+    {
+      "id": 4,
+      "name": "Iphone 11",
+      "model": "Subway Blue",
+      "price": "619.99",
+      "image": "/src/assets/images/iphoneGreen.svg",
+      "icon": "/src/assets/icons/Button.svg"
+    },
+    {
+      "id": 5,
+      "name": "Macbook Pro 16”",
+      "model": "Silver - M1 Pro",
+      "price": "3249.99",
+      "image": "/src/assets/images/mac.svg",
+      "icon": "/src/assets/icons/Button.svg"
+    },
+    {
+      "id": 6,
+      "name": "Iphone 11",
+      "model": "Product RED",
+      "price": "619.99",
+      "image": "/src/assets/images/iphoneRed.svg",
+      "icon": "/src/assets/icons/Button.svg"
+    },
+    {
+      "id": 7,
+      "name": "Iphone 11",
+      "model": "Milky White",
+      "price": "619.99",
+      "image": "/src/assets/images/iphoneWhite.svg",
+      "icon": "/src/assets/icons/Button.svg"
+    },
+    {
+      "id": 8,
+      "name": "Iphone 11",
+      "model": "Milky White",
+      "price": "619.99",
+      "image": "/src/assets/images/iphoneWhite.svg",
+      "icon": "/src/assets/icons/Button.svg"
+    },
+    {
+      "id": 9,
+      "name": "Iphone 11",
+      "model": "Milky White",
+      "price": "619.99",
+      "image": "/src/assets/images/iphoneBlack.svg",
+      "icon": "/src/assets/icons/Button.svg"
+    },
+    {
+      "id": 10,
+      "name": "Iphone 11",
+      "model": "Milky White",
+      "price": "619.99",
+      "image": "/src/assets/images/iphoneRed.svg",
+      "icon": "/src/assets/icons/Button.svg"
+    },
+    {
+      "id": 11,
+      "name": "Iphone 11",
+      "model": "Milky White",
+      "price": "619.99",
+      "image": "/src/assets/images/appleWatch.svg",
+      "icon": "/src/assets/icons/Button.svg"
+    }
+  ],
+  "right-prs": [
+    {
+      "id": 1,
+      "img": "/src/assets/images/iphoneBlue.svg"
+    },
+    {
+      "id": 2,
+      "img": "/src/assets/images/iphoneBlue.svg"
+    },
+    {
+      "id": 3,
+      "img": "/src/assets/images/iphoneBlue.svg"
+    },
+    {
+      "id": 4,
+      "img": "/src/assets/images/iphoneBlue.svg"
+    }
+  ]
+}

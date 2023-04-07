@@ -1,0 +1,104 @@
+.detail {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    .top {
+      display: flex;
+      margin-bottom: 40px;
+      &__left {
+        display: flex;
+        gap: 20px;
+        width: 42.9%;
+        .left-imgs {
+          .lit-img {
+            width: 60px;
+            background-color: #fff;
+            border-radius: 12px;
+            margin-top: 10px;
+            padding: 10px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+        .right-img {
+          width: 300px;
+          img {
+            width: 100%;
+            background-color: #fff;
+            border-radius: 15px;
+          }
+        }
+      }
+
+      &__right {
+        width: 50.9%;
+        .cap {
+          font-size: 45px;
+          font-weight: 600;
+        }
+        .item-model {
+          margin-bottom: 1rem;
+          font-size: 22px;
+          color: gray;
+        }
+        .rate-box {
+          display: flex;
+          gap: 16px;
+          margin-bottom: 7px;
+          .star-box {
+            .fa-star {
+              color: yellow;
+              font-size: 22px;
+              padding-right: 7px;
+            }
+          }
+          .rate-num {
+            font-size: 17px;
+            color: green;
+          }
+        }
+        .price {
+          color: gray;
+          font-size: 30px;
+          margin-bottom: 5px;
+        }
+        .info {
+          font-weight: 500;
+          text-align: justify;
+          margin-bottom: 30px;
+        }
+        .bagBtn {
+          width: 100%;
+          text-align: end;
+          background: bottom;
+          border: none;
+        }
+      }
+    }
+    .line {
+      width: 93%;
+      border: 1px solid;
+      border-color: gray;
+      border-radius: 3px;
+    }
+    .bottom {
+      margin-top: 2rem;
+      width: 94%;
+      .desc {
+        font-size: 30px;
+        margin-bottom: 4px;
+        font-weight: 500;
+      }
+      &__par {
+        text-align: justify;
+        color: rgb(61, 61, 61);
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.right-side {
+  margin: 7rem 0;
+  text-align: center;
+  border-left: 3px solid gray;
+  border-radius: 2px;
+  .right-cap {
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(28, 28, 28);
+    margin-bottom: 10px;
+  }
+  .pr-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    .item {
+      width: 90px;
+      background-color: #fff;
+      border-radius: 10px;
+      transition: 0.7s;
+
+      &__img {
+        width: 100%;
+      }
+    }
+    .item:hover {
+      transform: scale(1.1);
+      transition: 0.7s;
+    }
+  }
+}

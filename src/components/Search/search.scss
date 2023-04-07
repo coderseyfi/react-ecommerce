@@ -1,0 +1,20 @@
+.search {
+  width: fit-content;
+  margin: 0 auto;
+  &__title {
+    text-align: left;
+    margin-bottom: 8px;
+    margin-left: 4px;
+    color: rgb(97, 97, 97);
+  }
+  &__input {
+    padding: 5px 18px;
+    min-width: 507px;
+    height: 57px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+}
