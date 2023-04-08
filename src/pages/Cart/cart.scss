@@ -1,0 +1,74 @@
+.cart {
+  margin-top: 4rem;
+  max-width: 980px;
+  h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 1rem;
+  }
+  &__item {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    padding: 20px 0;
+    .left {
+      width: 220px;
+      img {
+        width: 100%;
+      }
+    }
+
+    .right {
+      &__name {
+        font-size: 34px;
+        font-weight: 400;
+      }
+      &__model {
+        color: gray;
+        display: inline-block;
+        padding-bottom: 10px;
+      }
+      &__desc {
+        font-weight: 500;
+        padding-bottom: 1.5rem;
+      }
+      .rate-box {
+        display: flex;
+        gap: 20px;
+        font-size: 20px;
+        padding-bottom: 2rem;
+        .star-box {
+          .fa-star {
+            padding-right: 7px;
+            color: yellow;
+            font-size: 24px;
+          }
+        }
+        .rate-num {
+          color: green;
+        }
+      }
+      &__price {
+        display: flex;
+        justify-content: space-between;
+        p {
+          font-size: 20px;
+          span {
+            padding-left: 6px;
+          }
+        }
+        .input {
+          border: none;
+          background-color: rgb(194, 194, 194);
+          border-radius: 10px;
+          padding: 10px;
+          outline: none;
+          font-size: 15px;
+          max-width: 100px;
+        }
+      }
+    }
+  }
+}
